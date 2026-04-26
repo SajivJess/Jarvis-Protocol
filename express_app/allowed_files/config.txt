@@ -1,0 +1,3 @@
+app_name=jarvis-protocol
+version=1.0.0
+mode=training

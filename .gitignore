@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+express_app/node_modules/
+dashboard/node_modules/
+
+# Build output
+dashboard/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Environment
+.env
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (too large for git)
+qwen_security_model/
+jarvis-grpo-output/
+jarvis-trained/
+
+# Logs
+*.log
+wandb/
